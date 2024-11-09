@@ -23,7 +23,7 @@ L’extension `pgcrypto` a été choisie pour offrir une solution de hachage rob
 
 L’intégration de `pgcrypto` dans *Au Bon Deal* fournit une solution robuste pour la protection des mots de passe, renforçant la sécurité des informations sensibles. Cette stratégie, qui associe un hachage non réversible et un sel unique, assure une gestion des mots de passe fiable et sécurisée, tout en répondant aux exigences modernes de sécurité des données.
 
-# 📌 L'Utilité de l'UUID dans *Au Bon Deal*
+# 📌 L'Utilité de l'UUID dans *Au Bon Deal* 
 
 Dans *Au Bon Deal*, l’UUID (Universally Unique Identifier) est utilisé comme identifiant unique pour certaines tables, notamment les tables `Users` et `Products`. Cette approche apporte de nombreux avantages en matière de gestion des données et de sécurité dans le projet.
 
