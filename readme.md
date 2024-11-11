@@ -17,6 +17,8 @@
 2. [Définition de MERISE](#définition-de-merise)
 3. [Critères de Performance](#critères-de-performance)
 4. [Documents Fournis](#documents-fournis)
+5. [Génération de Données Factices](#génération-de-données-factices)
+
 
 
 
@@ -84,3 +86,12 @@ Dans le cadre de ce projet, les documents suivants ont été mis à disposition 
 ![MLD](/doc/BDD/MLD.png)
   
 **Note** : Le MLD contient des erreurs intentionnelles ; ils nécessitent donc une analyse critique et des propositions d’amélioration avant la mise en œuvre.
+
+## Génération de Données Factices
+
+Pour simuler un environnement de production et tester efficacement la base de données, des données factices ont été générées en utilisant **Mockaroo**. Cet outil a permis de créer un jeu de données réaliste et varié comprenant :
+
+- **1000 utilisateurs** avec des informations générées aléatoirement, telles que des noms, des usernames, des mots de passe, etc.
+- **50 produits** avec des descriptions, et prix, pour représenter les articles disponibles sur la plateforme.
+
+Ces données permettent de tester les performances de la base de données et de valider les opérations CRUD (Create, Read, Update, Delete) dans des conditions proches de l’utilisation réelle. L’utilisation de Mockaroo a permis de gagner du temps dans la création de données de test tout en assurant une diversité de cas pour tester la robustesse et la précision des requêtes.
