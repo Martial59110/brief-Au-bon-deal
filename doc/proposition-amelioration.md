@@ -4,13 +4,13 @@
 ![mld](img/new-mld.jpg)
 
 ### 1. Retrait des Cardinalités
-Les cardinalités entre les entités actuelles peuvent être supprimées.
+Les cardinalités entre les tables actuelles peuvent être supprimées.
 
 ### 2. Suppression des Relations
 Les relations comme "Is ordered by" peuvent être retirées.
 
 ### 3. Correction du Nom de l'Entité-Association entre `Products` et `Orders`
-Une correction du nom de l’entité-association entre `Products` et `Orders` est nécessaire pour assurer une meilleure compréhension des données et une cohérence dans la dénomination des relations.
+Une correction du nom de la table-association entre `Products` et `Orders` est nécessaire pour assurer une meilleure compréhension des données et une cohérence dans la dénomination des relations.
 
 
 # Proposition d'amélioration de la base de données
